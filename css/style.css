@@ -1,0 +1,71 @@
+/* Estilo, para el header, footer y el index principal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea; /* Color de fondo más claro */
+}
+
+header {
+    background-color: #f5f5f5; /* Color de fondo más claro */
+    color: #333; /* Color de texto más oscuro para contraste */
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #555; /* Color de texto más suave para los enlaces */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #777; /* Color de texto al pasar el cursor */
+}
+
+
+/* Estilos para el footer */
+footer {
+    background-color: #f5f5f5; /* Color de fondo más claro */
+    color: #333; /* Color de texto más oscuro para contraste */
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    color: #0077cc; /* Color de enlaces más suave */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #005999; /* Color de enlaces al pasar el cursor */
+}

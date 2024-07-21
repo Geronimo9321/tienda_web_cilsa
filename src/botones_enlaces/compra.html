@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda-Online</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header>
+
+        <nav>
+            <h1>Tu Tienda-Online Favorita</h1>
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../catalogo.html">Catalogo</a></li>
+                <li><a href="../perfil.html">Perfil</a></li>
+                <li><a href="../contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <h2>Orden de Compra</h2>
+        <form action="procesar_compra">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electronico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="telefono" name="telefono">
+
+            <label for="direccion">Direccion de Envio:</label>
+            <textarea id="direccion" name="direccion" rows="4" required></textarea>
+
+            <label for="producto">Producto a Comprar:</label>
+            <select name="producto" id="producto" required>
+                <option value="">-- Seleccione un Producto --</option>
+                <option value="producto1">Producto 1</option>
+                <option value="producto2">Producto 2</option>
+                <option value="producto3">Producto 3</option>
+                <option value="producto4">Producto 4</option>
+                <option value="producto5">Producto 5</option>
+                <option value="producto6">Producto 6</option>
+                <option value="producto7">Producto 7</option>
+                <option value="producto8">Producto 8</option>
+                <option value="producto9">Producto 9</option>
+                <option value="producto10">Producto 10</option>
+                <option value="producto11">Producto 11</option>
+                <option value="producto12">Producto 12</option>
+            </select>
+
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" value="1" required>
+
+            <label for="metodo_pago">Metodo de Pago:</label>
+            <select name="metodo_pago" id="metodo_pago" required>
+                <option value="efectivo">Efectivo</option>
+                <option value="tarjeta_debito">Tarjeta de Debito</option>
+                <option value="transeferencia">Transferencia</option>
+            </select>
+
+            <button type="submit">Comprar</button>
+            <button type="submit">Cancelar Comprar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Creado por: 
+            <a href="https://www.linkedin.com/in/geronimo-ariel-franco-programador-tester?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Geronimo Ariel Franco</a> 
+            - <a href="">Vanina Coria</a>. Pagina web para FULL STACK DEVELOPOR 
+            - <a href="https://www.cilsa.org/" target="_blank">CILSA 2024</a>.</p>
+    </footer>
+</body>
+</html>

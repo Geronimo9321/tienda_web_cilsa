@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda-Online</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <header>
+
+        <nav>
+            <h1>Tu Tienda-Online Favorita</h1>
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../catalogo.html">Catalogo</a></li>
+                <li><a href="../perfil.html">Perfil</a></li>
+                <li><a href="../contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <h2>Formulario de Registro</h2>
+        <form action="procesar_registro">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electronico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm_password">Confirmar Contraseña:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+
+            <label for="telefono">Telefono:</label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="direccion">Direccion:</label>
+            <textarea id="direccion" name="direccion" rows="4"></textarea>
+
+            <label for="fecha_de_nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha_de_nacimiento" name="fecha_de_nacimiento">
+
+            <label for="genero">Genero:</label>
+            <select name="genero" id="genero">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="intereses">Intereses:</label> 
+            <input type="checkbox" id="interes1" name="intereses" value="interes1">
+
+
+            <label for="interes1">Intereses 1</label>
+            <input type="checkbox" id="interes1" name="intereses" value="interes1">
+
+            <label for="interes2">Intereses 2</label>
+            <input type="checkbox" id="interes2" name="intereses" value="interes2">
+
+            <label for="interes3">Intereses 3</label>
+            <input type="checkbox" id="interes3" name="intereses" value="interes3">
+
+            <button type="submit">Registrarse</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Creado por: 
+            <a href="https://www.linkedin.com/in/geronimo-ariel-franco-programador-tester?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Geronimo Ariel Franco</a> 
+            - <a href="">Vanina Coria</a>. Pagina web para FULL STACK DEVELOPOR 
+            - <a href="https://www.cilsa.org/" target="_blank">CILSA 2024</a>.</p>
+    </footer>
+</body>
+</html>
